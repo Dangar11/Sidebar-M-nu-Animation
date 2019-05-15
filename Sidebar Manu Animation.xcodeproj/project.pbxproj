@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD0FC687228C7A92006B5E86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0FC686228C7A92006B5E86 /* AppDelegate.swift */; };
+		DD0FC68C228C7A92006B5E86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0FC68A228C7A92006B5E86 /* Main.storyboard */; };
+		DD0FC68E228C7A93006B5E86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD0FC68D228C7A93006B5E86 /* Assets.xcassets */; };
+		DD0FC691228C7A93006B5E86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0FC68F228C7A93006B5E86 /* LaunchScreen.storyboard */; };
+		DD0FC69D228C7C6C006B5E86 /* MenuItems.json in Resources */ = {isa = PBXBuildFile; fileRef = DD0FC69C228C7C6C006B5E86 /* MenuItems.json */; };
+		DD0FC69F228C7C8A006B5E86 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0FC69E228C7C8A006B5E86 /* MenuItem.swift */; };
+		DD0FC6A1228C7CD3006B5E86 /* MenuDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0FC6A0228C7CD3006B5E86 /* MenuDataSource.swift */; };
+		DD0FC6A3228C7D00006B5E86 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0FC6A2228C7D00006B5E86 /* DetailViewController.swift */; };
+		DD0FC6A5228C7D19006B5E86 /* ManuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0FC6A4228C7D19006B5E86 /* ManuViewController.swift */; };
+		DD0FC6A7228C7D26006B5E86 /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0FC6A6228C7D26006B5E86 /* MenuItemCell.swift */; };
+		DD0FC6AB228C7D9D006B5E86 /* UINavigationBar+StatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0FC6AA228C7D9D006B5E86 /* UINavigationBar+StatusBar.swift */; };
+		DD0FC6AD228C82DC006B5E86 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0FC6AC228C82DC006B5E86 /* RootViewController.swift */; };
+		DD0FC6AF228C916A006B5E86 /* HamburgerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0FC6AE228C916A006B5E86 /* HamburgerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD0FC683228C7A92006B5E86 /* Sidebar Manu Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sidebar Manu Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0FC686228C7A92006B5E86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD0FC68B228C7A92006B5E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD0FC68D228C7A93006B5E86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD0FC690228C7A93006B5E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD0FC692228C7A93006B5E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD0FC69C228C7C6C006B5E86 /* MenuItems.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MenuItems.json; sourceTree = "<group>"; };
+		DD0FC69E228C7C8A006B5E86 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		DD0FC6A0228C7CD3006B5E86 /* MenuDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDataSource.swift; sourceTree = "<group>"; };
+		DD0FC6A2228C7D00006B5E86 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DD0FC6A4228C7D19006B5E86 /* ManuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManuViewController.swift; sourceTree = "<group>"; };
+		DD0FC6A6228C7D26006B5E86 /* MenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
+		DD0FC6AA228C7D9D006B5E86 /* UINavigationBar+StatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+StatusBar.swift"; sourceTree = "<group>"; };
+		DD0FC6AC228C82DC006B5E86 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		DD0FC6AE228C916A006B5E86 /* HamburgerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD0FC680228C7A92006B5E86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD0FC67A228C7A92006B5E86 = {
+			isa = PBXGroup;
+			children = (
+				DD0FC685228C7A92006B5E86 /* Sidebar Manu Animation */,
+				DD0FC684228C7A92006B5E86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD0FC684228C7A92006B5E86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD0FC683228C7A92006B5E86 /* Sidebar Manu Animation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD0FC685228C7A92006B5E86 /* Sidebar Manu Animation */ = {
+			isa = PBXGroup;
+			children = (
+				DD0FC69B228C7C38006B5E86 /* Infrastructure */,
+				DD0FC69A228C7BF9006B5E86 /* Helpers */,
+				DD0FC699228C7BF7006B5E86 /* Views */,
+				DD0FC698228C7BF2006B5E86 /* Model */,
+				DD0FC692228C7A93006B5E86 /* Info.plist */,
+			);
+			path = "Sidebar Manu Animation";
+			sourceTree = "<group>";
+		};
+		DD0FC698228C7BF2006B5E86 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD0FC69C228C7C6C006B5E86 /* MenuItems.json */,
+				DD0FC69E228C7C8A006B5E86 /* MenuItem.swift */,
+				DD0FC6A0228C7CD3006B5E86 /* MenuDataSource.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD0FC699228C7BF7006B5E86 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD0FC68A228C7A92006B5E86 /* Main.storyboard */,
+				DD0FC6A2228C7D00006B5E86 /* DetailViewController.swift */,
+				DD0FC6A4228C7D19006B5E86 /* ManuViewController.swift */,
+				DD0FC6A6228C7D26006B5E86 /* MenuItemCell.swift */,
+				DD0FC6AC228C82DC006B5E86 /* RootViewController.swift */,
+				DD0FC6AE228C916A006B5E86 /* HamburgerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD0FC69A228C7BF9006B5E86 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DD0FC6AA228C7D9D006B5E86 /* UINavigationBar+StatusBar.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DD0FC69B228C7C38006B5E86 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				DD0FC686228C7A92006B5E86 /* AppDelegate.swift */,
+				DD0FC68D228C7A93006B5E86 /* Assets.xcassets */,
+				DD0FC68F228C7A93006B5E86 /* LaunchScreen.storyboard */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD0FC682228C7A92006B5E86 /* Sidebar Manu Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0FC695228C7A93006B5E86 /* Build configuration list for PBXNativeTarget "Sidebar Manu Animation" */;
+			buildPhases = (
+				DD0FC67F228C7A92006B5E86 /* Sources */,
+				DD0FC680228C7A92006B5E86 /* Frameworks */,
+				DD0FC681228C7A92006B5E86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sidebar Manu Animation";
+			productName = "Sidebar Manu Animation";
+			productReference = DD0FC683228C7A92006B5E86 /* Sidebar Manu Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD0FC67B228C7A92006B5E86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Igor Tkach";
+				TargetAttributes = {
+					DD0FC682228C7A92006B5E86 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DD0FC67E228C7A92006B5E86 /* Build configuration list for PBXProject "Sidebar Manu Animation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD0FC67A228C7A92006B5E86;
+			productRefGroup = DD0FC684228C7A92006B5E86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD0FC682228C7A92006B5E86 /* Sidebar Manu Animation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD0FC681228C7A92006B5E86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0FC691228C7A93006B5E86 /* LaunchScreen.storyboard in Resources */,
+				DD0FC69D228C7C6C006B5E86 /* MenuItems.json in Resources */,
+				DD0FC68E228C7A93006B5E86 /* Assets.xcassets in Resources */,
+				DD0FC68C228C7A92006B5E86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD0FC67F228C7A92006B5E86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0FC69F228C7C8A006B5E86 /* MenuItem.swift in Sources */,
+				DD0FC6A3228C7D00006B5E86 /* DetailViewController.swift in Sources */,
+				DD0FC6AD228C82DC006B5E86 /* RootViewController.swift in Sources */,
+				DD0FC687228C7A92006B5E86 /* AppDelegate.swift in Sources */,
+				DD0FC6AB228C7D9D006B5E86 /* UINavigationBar+StatusBar.swift in Sources */,
+				DD0FC6A7228C7D26006B5E86 /* MenuItemCell.swift in Sources */,
+				DD0FC6A1228C7CD3006B5E86 /* MenuDataSource.swift in Sources */,
+				DD0FC6AF228C916A006B5E86 /* HamburgerView.swift in Sources */,
+				DD0FC6A5228C7D19006B5E86 /* ManuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD0FC68A228C7A92006B5E86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD0FC68B228C7A92006B5E86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD0FC68F228C7A93006B5E86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD0FC690228C7A93006B5E86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD0FC693228C7A93006B5E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD0FC694228C7A93006B5E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD0FC696228C7A93006B5E86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D6XU3X587;
+				INFOPLIST_FILE = "Sidebar Manu Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tkach.igor.Sidebar-Manu-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD0FC697228C7A93006B5E86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6D6XU3X587;
+				INFOPLIST_FILE = "Sidebar Manu Animation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tkach.igor.Sidebar-Manu-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD0FC67E228C7A92006B5E86 /* Build configuration list for PBXProject "Sidebar Manu Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0FC693228C7A93006B5E86 /* Debug */,
+				DD0FC694228C7A93006B5E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD0FC695228C7A93006B5E86 /* Build configuration list for PBXNativeTarget "Sidebar Manu Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0FC696228C7A93006B5E86 /* Debug */,
+				DD0FC697228C7A93006B5E86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD0FC67B228C7A92006B5E86 /* Project object */;
+}

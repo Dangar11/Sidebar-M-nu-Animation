@@ -1,0 +1,34 @@
+[ {
+  "imageName":"cola",
+  "bigImageName":"cola",
+  "colorArray":[249,84,7]
+},
+{
+  "imageName":"ice-cream",
+  "bigImageName":"ice-cream",
+  "colorArray":[69,59,55]
+},
+{
+  "imageName":"pizza",
+  "bigImageName":"pizza",
+  "colorArray":[249,194,7]
+},
+{
+  "imageName":"sandwich",
+  "bigImageName":"sandwich",
+  "colorArray":[32,188,32]
+},
+{
+  "imageName":"steak",
+  "bigImageName":"steak",
+  "colorArray":[207,34,156]
+},
+{
+  "imageName":"wine-glass",
+  "bigImageName":"wine-glass",
+  "colorArray":[14,88,149]
+},{
+  "imageName":"coffee",
+  "bigImageName":"coffee",
+  "colorArray":[14,88,149]
+}]
