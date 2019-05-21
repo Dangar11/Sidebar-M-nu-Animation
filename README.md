@@ -1,6 +1,12 @@
 # Sidebar-M-nu-Animation
 
-Side bar menu with 2 screens TableViewController and ViewController, embeded into 1 screen with scrollView
+Side bar menu wich implements ViewController with 2 ViewControllerInside and controll with UIScrollViewDelegate  
+
+## Use for this project 
+* CATransform3DRotate
+* CATransform3DMakeTranslation 
+* UIScrollViewDelegate for controll scrollViewDidScroll and scrollViewDidEndDragging
+
 
 Storyboard implementation 
 
